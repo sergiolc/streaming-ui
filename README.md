@@ -1,6 +1,6 @@
 # Streaming UI - Mock
 Simple UI for testing Streaming Service.
-Authentication and video streaming arer mocked for testing purpose only.
+Authentication and video streaming are mocked for testing purpose only.
 
 ## Development server
 
@@ -12,7 +12,9 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Online service
 
-Service is hosted on Heroku: `https://slc-streaming-ui.herokuapp.com/`.
+Service is hosted on heroku: `https://slc-streaming-service.herokuapp.com/`
+
+Web App is also hosted on Heroku: `https://slc-streaming-ui.herokuapp.com/`.
 
 There are 3 users configured:
 
