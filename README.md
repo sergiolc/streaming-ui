@@ -12,9 +12,9 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Online service
 
-Service is hosted on heroku: `https://slc-streaming-service.herokuapp.com/`
+Service is hosted on heroku: https://slc-streaming-service.herokuapp.com/.
 
-Web App is also hosted on Heroku: `https://slc-streaming-ui.herokuapp.com/`.
+Web App is also hosted on Heroku: https://slc-streaming-ui.herokuapp.com/.
 
 There are 3 users configured:
 
@@ -24,7 +24,7 @@ There are 3 users configured:
 
 The application keeps the state of the video streaming as long as the user is logged in. Once the user logs out, all streams are stopped in the service.
 
-### Considerations
+## Considerations
 In a production app, the state of the video streaming could be handled by the endpoint responsible for providing the video data. 
 
 Ex. Create a middleware which identifies when the request/stream has been closed/finished.
