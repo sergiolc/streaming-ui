@@ -1,0 +1,10 @@
+<div class="video-container">
+    <span class="title">{{video.title}}</span>
+    <div>
+        <button class="btn btn-primary" (click)="start(video)" [disabled]="video.status === 'allowed'">Play</button>
+        <button class="btn btn-danger" (click)="stop(video)" [disabled]="video.status !== 'allowed'">Stop</button>
+    </div>
+    <div class="feedback-container">
+        <span class="feedback" [ngClass]="{'warn': video.status === 'denied' }">{{ feedback }}</span>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+
+
+:host {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid silver;
+
+    .title {
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .btn + .btn {
+        margin-left: 5px;
+    }
+
+    .feedback-container {
+
+        min-height: 25px; 
+
+        .feedback {
+            font-size: 12px;
+
+            &.warn {
+                color: red;
+            }
+        }
+    
+    }
+}

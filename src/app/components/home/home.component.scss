@@ -1,0 +1,22 @@
+
+
+:host {
+
+    .card {
+        padding: 15px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+
+        .form-control {
+            flex-grow: 1;
+        }
+    }
+
+    .btn {
+        margin-left: 5px;
+    }
+}

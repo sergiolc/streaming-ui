@@ -1,0 +1,16 @@
+
+<div class="container h-100">
+    <div class="row col-sm-12">
+        <span class="username align-self-center">User: {{ user.name }}  -  Limit: {{ user.limit }}</span><button class="btn btn-secondary ml-auto" type="button" (click)="logout()">Logout</button>
+    </div>
+
+    <div class="col-sm-12 h-100 mt-2">
+        <h3 class="text-center">Videos</h3>
+
+        <div class="row">
+            <app-video *ngFor="let video of videos" [video]="video"></app-video>
+        </div>
+
+    </div>
+
+</div>
